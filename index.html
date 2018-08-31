@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>ColorGeneratorJS</title>
+   <!-- Adding a favicon -->
+   <link rel="shortcut icon" href="fav/fav.ico">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- Linking a stylesheet -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+   <!-- Content -->
+   <div class="wrapper">
+      <h1 id="colorTxt">#000000</h1>
+      <select id="select" onchange="getOption()">
+         <option value="hex">HEX</option>
+         <option value="rgb">RGB</option>
+      </select>
+      <button id="generateBtn" type="button">Generate</button>
+   </div>
+
+   <!-- Linking a JavaScript file -->
+   <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
