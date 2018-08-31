@@ -74,7 +74,7 @@ body {
 }
 
 /* Color Changing Transition */
-body, .wrapper #generateBtn {
+body, .wrapper #generateBtn, .wrapper #select {
    transition: all 200ms ease;
 }
 
