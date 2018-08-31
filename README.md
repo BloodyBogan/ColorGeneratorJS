@@ -12,7 +12,7 @@ It's really simple! Choose a color value type from the dropdown menu and click g
 
 ## Version
 
-v1.0
+v1.1
 
 ## Author
 
